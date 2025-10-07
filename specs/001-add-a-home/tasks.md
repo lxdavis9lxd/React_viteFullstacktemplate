@@ -5,23 +5,23 @@
 
 ## Phase 1: Setup (Shared Infrastructure)
 
-- [ ] T001 Create monorepo structure: `frontend/` and `backend/`
-- [ ] T002 Initialize React/Vite project in `frontend/`
-- [ ] T003 Initialize Express project in `backend/`
-- [ ] T004 Install Tailwind CSS, Heroicons, Axios in `frontend/`
-- [ ] T005 Install bcrypt and SQLite in `backend/`
-- [ ] T006 Configure ESLint, Prettier, and basic CI setup
+- [X] T001 Create monorepo structure: `frontend/` and `backend/`
+- [X] T002 Initialize React/Vite project in `frontend/`
+- [X] T003 Initialize Express project in `backend/`
+- [X] T004 Install Tailwind CSS, Heroicons, Axios in `frontend/`
+- [X] T005 Install bcrypt and SQLite in `backend/`
+- [X] T006 Configure ESLint, Prettier, and basic CI setup
 
 ---
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
-- [ ] T007 Setup SQLite database schema for user registration in `backend/src/models/`
-- [ ] T008 Implement password encryption with bcrypt in registration service
-- [ ] T009 Implement authentication/session management (JWT preferred) in `backend/src/services/`
-- [ ] T010 Setup API endpoints for login, registration, and CRUD in `backend/src/api/`
-- [ ] T011 Configure React Router in `frontend/src/`
-- [ ] T012 Setup base Tailwind CSS config and theme
+- [X] T007 Setup SQLite database schema for user registration in `backend/src/models/`
+- [X] T008 Implement password encryption with bcrypt in registration service
+- [X] T009 Implement authentication/session management (JWT preferred) in `backend/src/services/`
+- [X] T010 Setup API endpoints for login, registration, and CRUD in `backend/src/api/`
+- [X] T011 Configure React Router in `frontend/src/`
+- [X] T012 Setup base Tailwind CSS config and theme
 
 ---
 
@@ -30,10 +30,10 @@
 **Goal**: User sees sidebar with 4 icons (Home, Edit, Search, Login/Logoff)
 **Independent Test**: Load home page, verify sidebar icons and navigation
 
-- [ ] T013 [P] Create Sidebar component in `frontend/src/components/Sidebar.jsx` using Tailwind sidebar template
-- [ ] T014 [P] Add Heroicons for Home, Edit, Search, Login/Logoff
-- [ ] T015 [P] Implement navigation logic for sidebar icons
-- [ ] T016 [P] Add sidebar to main layout in `frontend/src/pages/Home.jsx`
+- [X] T013 [P] Create Sidebar component in `frontend/src/components/Sidebar.jsx` using Tailwind sidebar template
+- [X] T014 [P] Add Heroicons for Home, Edit, Search, Login/Logoff
+- [X] T015 [P] Implement navigation logic for sidebar icons
+- [X] T016 [P] Add sidebar to main layout in `frontend/src/pages/Home.jsx`
 - [ ] T017 [P] Write tests for sidebar navigation
 
 **Checkpoint**: Sidebar functional and testable independently
@@ -45,10 +45,10 @@
 **Goal**: User sees navbar with 3 icons (Home, Search, Logon, Registration)
 **Independent Test**: Load any page, verify navbar icons and navigation
 
-- [ ] T018 [P] Create Navbar component in `frontend/src/components/Navbar.jsx` using Tailwind navbar template
-- [ ] T019 [P] Add Heroicons for Home, Search, Logon, Registration
-- [ ] T020 [P] Implement navigation logic for navbar icons
-- [ ] T021 [P] Add navbar to main layout in all pages
+- [X] T018 [P] Create Navbar component in `frontend/src/components/Navbar.jsx` using Tailwind navbar template
+- [X] T019 [P] Add Heroicons for Home, Search, Logon, Registration
+- [X] T020 [P] Implement navigation logic for navbar icons
+- [X] T021 [P] Add navbar to main layout in all pages
 - [ ] T022 [P] Write tests for navbar navigation
 
 **Checkpoint**: Navbar functional and testable independently
