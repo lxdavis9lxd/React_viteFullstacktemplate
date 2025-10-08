@@ -35,8 +35,9 @@ function Registration() {
       localStorage.setItem('user', JSON.stringify(response.data.user));
       navigate('/');
     } catch (err) {
+      console.error('Registration error:', err);
       setError(
-        err.response?.data?.error || 'Registration failed. Please try again.'
+        err.response?.data?.error || err.message || 'Registration failed. Please try again.'
       );
     } finally {
       setLoading(false);
